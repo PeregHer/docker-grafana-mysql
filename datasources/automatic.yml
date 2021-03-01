@@ -1,0 +1,11 @@
+apiVersion: 1
+
+datasources:
+- name: mysql-db
+  type: mysql
+  access: proxy
+  url: mysql-db
+  password: root
+  user: root
+  database: vaccinations
+  isDefault: True
