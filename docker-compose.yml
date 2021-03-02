@@ -11,7 +11,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - ./vaccinations.sql:/docker-entrypoint-initdb.d/init.sql
-     command:
+    command:
       - --innodb-buffer-pool-size=25M
 
   # Grafana setup
