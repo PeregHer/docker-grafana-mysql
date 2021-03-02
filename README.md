@@ -16,7 +16,7 @@ Cela va lancer la création et le lancement des 2 containers.
 
 ## Accéder à Grafana
 
-Pour accéder à Grafana il faut se rendre sur [localhost:80](http://127.0.0.1:80) et rentrer les identifiants par défaut qui sont:
+Pour accéder à Grafana il faut se rendre sur [localhost:80](http://127.0.0.1:80) (ou [13.36.87.26](http://13.36.87.26/) pour l'exemple) et rentrer les identifiants par défaut qui sont:
 
 - `user: admin`
 - `password: admin` 
