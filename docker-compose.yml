@@ -26,6 +26,7 @@ services:
       GRAFANA_ADMIN_PASSWORD: admin
       GF_AUTH_ORG_ROLE: viewer
       GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH: /etc/grafana/provisioning/dashboards/dashboards.json
     volumes:
       - ./dashboards/:/etc/grafana/provisioning/dashboards/
       - ./datasources/:/etc/grafana/provisioning/datasources/
