@@ -24,9 +24,9 @@ services:
       GF_INSTALL_PLUGINS: percona-percona-app
       GRAFANA_ADMIN_USER: admin
       GRAFANA_ADMIN_PASSWORD: admin
-      GF_AUTH_DISABLE_LOGIN_FORM: true
+      GF_AUTH_DISABLE_LOGIN_FORM: "true"
       GF_AUTH_ORG_ROLE: viewer
-      GF_AUTH_ANONYMOUS_ENABLED: true
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
     volumes:
       - ./dashboards/:/etc/grafana/provisioning/dashboards/
       - ./datasources/:/etc/grafana/provisioning/datasources/
