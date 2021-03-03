@@ -21,10 +21,8 @@ Ce script va être exécuté au lancement du docker-compose et charger la base d
 
 Afin de charger la datasource et le dashboard à la création des containers il faut utiliser des volumes pour utiliser les dossier `datasources` et `dashboards` à l'initialisation de grafana
 
-- datasources
-Il contient un fichier [automatic.yml](/datasources/automatic.yml) qui contient toutes les informations de connection à la base de données MySQL
-- dashboards
-Il contient un fichier [dashboards.yml](/dashboards/dashboards.yml) qui contient les informations de création du dashboards ainsi qu'un fichier [dashboards.json](/dashboards/dashboards.json) qui contient les informations des graph.
+- Le dossier datasources contient un fichier [automatic.yml](/datasources/automatic.yml) qui défini toutes les informations de connection à la base de données MySQL
+- Le dossier dashboards contient un fichier [dashboards.yml](/dashboards/dashboards.yml) qui contient les informations de création du dashboards ainsi qu'un fichier [dashboards.json](/dashboards/dashboards.json) qui contient les informations des graph.
 
 Le fichier [docker-compose](/docker-compose.yml) contient aussi des variables d'environnement pour définir le dashboard par défaut et ajouter un profil viewer.
 
