@@ -19,7 +19,7 @@ Ce script va être exécuté au lancement du docker-compose et charger la base d
 
 ### Grafana
 
-Afin de charger la datasource et le dashboard à la création des containers il faut utiliser des volumes pour utiliser les dossier [datasources](/datasources) et [dashboards](/dashboards) à l'initialisation de grafana
+Afin de charger la datasource et le dashboard à la création des containers il faut utiliser des volumes pour utiliser les dossier `datasources` et `dashboards` à l'initialisation de grafana
 
 - datasources
 Il contient un fichier [automatic.yml](/datasources/automatic.yml) qui contient toutes les informations de connection à la base de données MySQL
