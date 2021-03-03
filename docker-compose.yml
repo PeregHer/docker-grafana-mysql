@@ -21,7 +21,6 @@ services:
     ports:
       - '80:3000'
     environment:
-      GF_INSTALL_PLUGINS: percona-percona-app
       GRAFANA_ADMIN_USER: admin
       GRAFANA_ADMIN_PASSWORD: admin
       GF_AUTH_ORG_ROLE: viewer
